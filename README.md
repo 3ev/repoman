@@ -4,13 +4,13 @@
 
 See [this article](https://bosnadev.com/2015/03/07/using-repository-pattern-in-laravel-5/) for a description of the repository pattern in Laravel.
 
-## Installation
+##Installation
 
 ```
 $ composer require "3ev/repoman:~1.0"
 ```
 
-## Usage
+##Usage
 
 Repoman provides a basic interface for a repository. You can implement it
 yourself, or leverage one of the supplied implementations. You can extend the
@@ -18,7 +18,7 @@ interface for your own specific repository classes.
 
 See the phpdoc in the source files for information on the API and errors.
 
-### Basic implementation
+###Basic implementation
 
 ```php
 <?php
@@ -60,9 +60,7 @@ class Repository implements RepositoryInterface
 }
 ```
 
-or leverage one of the supplied implementations.
-
-### Eloquent
+###Eloquent
 
 ```php
 <?php
@@ -80,6 +78,6 @@ class ExampleModelRepository extends Repository
 }
 ```
 
-## License
+##License
 
 MIT
